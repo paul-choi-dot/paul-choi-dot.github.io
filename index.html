@@ -2,36 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Paul Choi – Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
-    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; }
-    header { margin-bottom: 2rem; }
-    h1 { margin-bottom: 0.25rem; }
-    .project { border: 1px solid #ddd; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+    }
+
+    nav {
+      background: #111;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    header {
+      padding: 3rem 2rem;
+      background: white;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 0.25rem;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .project-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      background: #111;
+      color: #fff;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
+
 <body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- Header -->
   <header>
-    <h1>Paul Choi</h1>
-    <p>Mechanical Engineering Student</p>
-  </header>
-
-  <section>
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>Rocket Propulsion Simulation</h3>
-      <p>Short description of what you did, tools used, and what you learned.</p>
-      <p><strong>Tech:</strong> Python, MATLAB, ANSYS</p>
-      <a href="https://github.com/your-username/your-project">View on GitHub</a>
-    </div>
-
-    <div class="project">
-      <h3>4-bit CPU Design</h3>
-      <p>Designed and simulated a 4-bit CPU including datapath and control logic.</p>
-      <p><strong>Tech:</strong> Logisim, Verilog (optional), MIPS concepts</p>
-    </div>
-  </section>
-</body>
-</html>
+    <h1>Paul C
