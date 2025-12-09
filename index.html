@@ -71,6 +71,22 @@
       color: #fff;
       font-size: 0.9rem;
     }
+
+    .image-collage {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+      gap: 10px;
+      margin-top: 1rem;
+    }
+    
+    .image-collage img {
+      width: 100%;
+      height: 160px;             /* adjust as preferred */
+      object-fit: cover;          /* crops images cleanly */
+      border-radius: 8px;         /* matches project-card softness */
+      border: 1px solid #ddd;     /* aligns with your card borders */
+    }
+
   </style>
 </head>
 
@@ -184,41 +200,15 @@
         ALU, registers, and control logic. Implemented instruction execution,
         branching, and memory access using hardware design principles.
       </p>
-      <p><strong>Tools:</strong> Logisim, Verilog (optional), MIPS fundamentals</p>
-      <a href="https://github.com/your-username/your-cpu-project">View Project</a>
+</div>
+    <div class="image-collage">
+      <img src="images/climb1.jpg" alt="Bouldering at the gym">
+      <img src="images/climb2.jpg" alt="Top rope climbing on a wall">
+      <img src="images/climb3.jpg" alt="Outdoor climbing route">
+      <img src="images/climb4.jpg" alt="Climbing gear and shoes">
     </div>
-
-    <div class="project-card">
-      <h3>🏀Basketball🏀</h3>
-      <p>
-        Performed thermal and structural FEA simulations for a small-scale
-        rocket engine thrust chamber. Conducted mesh-independence studies and
-        evaluated composite/metallic material performance under high loads.
-      </p>
-      <p><strong>Tools:</strong> ANSYS Mechanical, MATLAB</p>
-      <a href="https://github.com/your-username/rocket-sim">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <h3>👾Gaming👾</h3>
-      <p>
-        Completed penetration testing labs including XSS, SQL injection, DVWA,
-        Snort IDS configuration, and firewall hardening with iptables/UFW.
-        Wrote full lab reports analyzing vulnerabilities and mitigation methods.
-      </p>
-      <p><strong>Tools:</strong> Kali Linux, Wireshark, Snort, tcpdump</p>
-      <a href="https://github.com/your-username/security-labs">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <h3>🏕️Backpacking🏕️</h3>
-      <p>
-        Led software development for autonomous and driver-control modes.
-        Implemented PID loops, odometry tracking, and hardware integration
-        for scoring mechanisms and drivetrain systems.
-      </p>
-      <p><strong>Tools:</strong> C++, VEXcode, Sensors</p>
-      <a href="https://github.com/your-username/vex-robotics">View Project</a>
+  
+</section>
     </div>
 
   </section>
